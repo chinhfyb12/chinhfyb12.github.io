@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skill.css">
+    <link rel="stylesheet" href="./css/exp.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <title>Phạm Đình Chỉnh</title>
+</head> 
+<body onscroll="moveEle()">
+    <nav id="navTop">
+        <div onclick="display()" class="bars"><img src="./img/bars.png" alt=""></div o>
+        <div onclick="hide()" class="close"><img src="./img/close.png" alt=""></div o>
+    </nav>
+    <div onmouseover="fullProfile()" onmouseout="notFullProfile()" class="main-profile">
+        <div class="main-name">
+            <img src="./img/beauty_1569761706991.jpeg" alt="">
+            <h3>Phạm Đình Chỉnh</h3>
+            <p>FRONT-END DEVELOPER</p>
+            <div class="list-mxh">
+                <a href="https://www.facebook.com/pdc0102" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/chinhfyb12" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/chinhfyb12" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="main-menu">
+            <ul class="list-menu">
+                <li  onclick="hide_2()" class="active">
+                    <a href="#home">
+                        <i class="fas fa-home"></i>
+                        <p>TRANG CHỦ</p>
+                    </a>
+                </li>
+                <li onclick="hide_2()">
+                    <a href="#about">
+                        <i class="fas fa-user"></i>
+                        <p>GIỚI THIỆU</p>
+                    </a>
+                </li>
+                <li onclick="hide_2()">
+                    <a href="#skill">
+                        <i class="fas fa-briefcase"></i>
+                        <p>KỸ NĂNG</p>
+                    </a>
+                </li>
+                <li onclick="hide_2()"> 
+                    <a href="#exp">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>KINH NGHIỆM</p>
+                    </a>
+                </li>
+                <li onclick="hide_2()">
+                    <a href="#contact">
+                        <i class="fas fa-phone"></i>
+                        <p>LIÊN HỆ</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="copyright">Ⓒ 2019 This template is made by Phạm Đình Chỉnh.</div>
+        </div>
+    </div>
+    <div class="container-list-menu">
+        <div class="container-home" id="home">
+            <span></span>  
+            <h1>I'M CHINH</h1>
+            <h3>Glad to meet you!</h3>  
+            <a href="https://www.facebook.com/messages/t/pdc0102" target="_blank" class="mess">
+                <i class="fab fa-facebook-messenger"></i>
+                <p>Inbox me</p>
+            </a>                
+        </div>
+        <div class="container-about" id="about">
+            <h3> 
+                GIỚI THIỆU
+                <span></span>
+            </h3>
+            <div class="info">
+                <h3>Xin chào,</h3>
+                <p>Tôi là Phạm Đình Chỉnh. Hiện tại đang là sinh viên và đang theo học ngành công nghệ thông tin.</p>
+                <div class="info_1">
+                    <div>Họ và tên: <b>Phạm Đình Chỉnh</b></div>
+                    <div>Tỉnh: <b>Nghệ An</b></div>
+                    <div>Sinh nhật: <b>01/02/2000</b></div>
+                    <div>Email: <b>dinhchinh1220@gmail.com</b></div>
+                </div>
+                <a href="https://github.com/chinhfyb12" target="_blank"><i class="fab fa-github"></i>Kho lưu trữ của tôi trên Github</a>
+            </div>
+        </div> 
+        <div class="container-skill" id="skill">
+            <h3>
+                KỸ NĂNG
+                <span></span>
+            </h3>
+            <div class="skill-detail">
+                <div class="detail">
+                    <img src="./img/html5-696x522.jpg" alt="">
+                    <div>
+                        <h4>HTML/HTML5</h4>
+                        <p>Sử dụng được ở mức cơ bản.</p>                         
+                    </div>
+                    <span></span>
+                </div>
+                <div class="detail">
+                    <img src="./img/creative-css3-tutorials.jpg" alt="">
+                    <div>
+                        <h4>CSS/CSS3/SCSS</h4>
+                        <p>Sử dụng được CSS3 ở mức cơ bản.</p>                        
+                    </div> 
+                    <span></span>
+                </div>
+                <div class="detail">
+                    <img src="./img/JavaScript-logo.png" alt="">
+                    <div>
+                        <h4>Javascript/ES6</h4>
+                        <p>Sử dụng cơ bản và đang học sâu thêm.</p>                        
+                    </div>
+                    <span></span>
+                </div>
+                <div class="detail">
+                    <img src="./img/btr.png" alt="">
+                    <div>
+                        <h4>Bootstrap 4</h4>
+                        <p>Sử dụng được để chia layout và responsive.</p>                        
+                    </div>
+                    <span></span>
+                </div>
+                <div class="detail">
+                    <img src="./img/node-js-icon.png" alt="">
+                    <div>
+                        <h4>NodeJS</h4>
+                        <p><i>Đang tìm hiểu thêm.</i></p>                        
+                    </div>
+                    <span></span>
+                </div>
+                <div class="detail">
+                    <img src="./img/reactjs.png" alt="">
+                    <div>
+
+                        <h4>ReactJS</h4>
+                        <p><i>Đang tìm hiểu.</i></p>                        
+                    </div>   
+                    <span></span>                 
+                </div>
+            </div>
+        </div>
+        <div class="container-exp" id="exp">
+            <h3>
+                KINH NGHIỆM
+                <span></span>
+            </h3>
+            <div class="tree-exp">
+                <div class="tree">
+                    <div class="icon-exp"><i class="fas fa-book"></i></div c>
+                    <span></span>
+                </div>
+                <div class="detail-exp">
+                    <h4>Hiện tại chưa có kinh nghiệm</h4>
+                    <p>Hiện tại vẫn đang tiếp tục việc tự học online, chưa đi làm việc thực tế và chưa tiếp xúc với các dự án thực tế.</p>
+                </div>                
+            </div>
+            <div class="ano-exp"><span></span></div>
+        </div>  
+        <div class="container-contact" id="contact">
+            <h3>
+                LIÊN HỆ 
+                <span></span>
+            </h3>
+            <div class="list-contact">
+                <div class="phone">
+                    <span  class="span-contact"><i class="fas fa-phone-alt"></i></span>
+                    <p>0326918863</p>
+                </div>
+                <div class="email">
+                    <span class="span-contact"><i class="far fa-envelope"></i></span>
+                    <p>dinhchinh1220@gmail.com</p>
+                </div>
+                <div class="location">
+                    <span class="span-contact"><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội.</p>
+                </div>
+            </div>
+        </div>  
+        <span onclick="hide_2()"></span>  
+    </div>
+    <a href="#navTop" class="toTop"><i class="fas fa-long-arrow-alt-up"></i></a>
+
+
+    <script src="./js/profile.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/menuMobile.js"></script>
+</body o>
+</html>

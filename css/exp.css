@@ -1,0 +1,122 @@
+.container-exp {
+    width: 100%;
+    height: 455px;
+    border: 4px solid white;
+    margin-top: 50px;
+    background: #4E5174;
+    box-shadow: 5px 5px 19px 3px #b5b5b5;
+    color: white;
+}
+.container-exp > h3 {
+    opacity: 0;
+    margin: 60px;
+    font-size: 24px;
+    position: relative;
+    height: 40px;
+    animation-duration: 1s;
+}
+.container-exp .tree-exp {
+    margin-left: 135px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.container-exp .tree-exp .tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-exp .tree-exp .tree > div {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+}
+.container-exp .tree-exp .tree .icon-exp {
+    opacity: 0;
+}
+.container-exp .tree-exp .tree > span {
+    opacity: 0;
+    width: 1px;
+    height: 165px;
+    background: white;
+    animation-duration: 1s;
+}
+.container-exp .ano-exp {
+    opacity: 0;
+    margin-left: 135px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+.container-exp .ano-exp > span {
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.container-exp .tree-exp .detail-exp {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    animation-duration: 1s;
+}
+.container-exp .tree-exp .detail-exp > h4 {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+}
+.container-exp .tree-exp .detail-exp > p {
+    padding: 5px;
+}
+@keyframes amt-exp-title {
+    0%{
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes amt-exp-detail {
+    0%{
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes amt-exp-tree {
+    0%{
+        opacity: 1;
+        height: 0;
+    }
+    100%{
+        opacity: 1;
+        height: 165px;
+    }
+}
+@media (max-width: 600px) {
+    .container-exp {
+        width: 90%;
+        height: 365px;
+    }
+    .container-exp > h3 {
+        margin: 30px;
+        font-size: 20px;
+        height: 35px;
+    }
+    .container-exp .tree-exp {
+        margin-left: 55px;
+    }
+    .container-exp .ano-exp {
+        margin-left: 55px;
+        width: 32px;
+    }
+}
