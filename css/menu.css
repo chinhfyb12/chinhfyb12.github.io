@@ -56,7 +56,7 @@ body > nav {
     width: 260px;
     /* height: 490px; */
     height: 265px;
-    transform: translate(180px, 27px);
+    transform: translate(100px, 27px);
     /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
@@ -168,7 +168,7 @@ body > nav {
     width: 700px;
     height: auto;
     position: absolute;
-    right: 180px;
+    right: 100px;
     top: 27px;
     margin-bottom: 140px;
 }
@@ -199,7 +199,7 @@ body > nav {
 }
 
 /* mobile  */
-@media (max-width: 600px) {
+@media (max-width: 1040px) {
     body > nav {
         display: flex;
         opacity: 1;

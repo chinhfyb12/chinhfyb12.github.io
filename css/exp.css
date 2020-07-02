@@ -102,7 +102,7 @@
         height: 165px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 1040px) {
     .container-exp {
         width: 90%;
         height: 365px;

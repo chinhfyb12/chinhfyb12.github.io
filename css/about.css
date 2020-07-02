@@ -71,7 +71,7 @@
         transform: rotateX(0);
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 1040px) {
     .container-about {
         width: 90%;
         height: 450px;

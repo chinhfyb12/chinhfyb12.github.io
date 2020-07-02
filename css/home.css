@@ -87,7 +87,7 @@
         transform: translateY(0);
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 1040px) {
     .container-list-menu .container-home {
         height: 230px;
     }
